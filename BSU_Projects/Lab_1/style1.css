@@ -1,0 +1,25 @@
+#header
+{
+font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  text-align:center;
+}
+#producing
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align:center;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  p{
+    text-align:justify;
+    font-size: 18px;
+  }
+  ol{
+    font-size: 18px;
+  }
+  ul{
+    font-size: 18px;
+  }

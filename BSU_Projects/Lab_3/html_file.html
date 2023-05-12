@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Периодические издания</title>
+    <style>
+        div {
+            font-size: 20px;
+        }
+
+        #header {
+            text-align: center;
+            background-color: aqua;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 50px;
+            border-style: none;
+            padding: 20px
+        }
+
+        #main {
+            height: 40px;
+            padding: 25px;
+            text-align: justify;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            
+        }
+
+        .button{
+            background-color: white;
+            font-size: 18px;
+            border: none;
+        }
+
+    </style>
+    <script src="js.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        Периодические издания
+    </div>
+    <div id="main">
+        <input class="button" onclick="WhichServiceAdd();" value="Ввод информации об издании" type="button">
+        <input class="button" onclick="WhichServiceDelete();" value="Удаление информации об издании" type="button">
+        <input class="button" onclick="WhichServiceInfo();" value="Получение информации об издании" type="button">
+        <input class="button" onclick="CallAllServices();" value="Перечень всех изданий" type="button">
+    </div>
+    <script>
+
+        function WhichServiceDelete() {
+            var service = prompt("Какое издание вы хотите удалить?", "");
+            DeleteService(service);
+        }
+
+        function CallAllServices() {
+            var isAll = confirm("Вы хотите увидеть перечень всех изданий?");
+            if (isAll) {
+                ListService();
+            }
+        }
+
+        function WhichServiceAdd() {
+            var service = prompt("Какое издание вы хотите добавить?", "");
+            if (service) {
+                var info = prompt("Введите описание издания", "");
+            }
+            if (info) {
+                AddSeevice(service, info);
+            }
+
+        }
+
+        function WhichServiceInfo() {
+            var service = prompt("Какое издание вас интересует?", "");
+            GetServiceInfo(service);
+        }
+
+    </script>
+</body>
+
+</html>

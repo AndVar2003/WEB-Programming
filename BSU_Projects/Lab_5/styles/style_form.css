@@ -1,0 +1,28 @@
+.field {
+    clear: both;
+    text-align: right;
+    line-height: 20px;
+    padding-right: 150px;
+    color: black;
+}
+
+div {
+    padding-bottom: 10px;
+}
+
+label {
+    float: left;
+    padding-right: 10px;
+}
+
+textarea {
+    width: 462px;
+    height: 150px;
+    resize: none;
+}
+
+
+
+.main {
+    float: left;
+}

@@ -1,0 +1,34 @@
+
+.menu-item 
+{
+  min-width: 270px;
+  margin: 15px;
+  background-color: rgba(27, 180, 109, 0.628); 
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 5px;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 500ms ease;
+}
+
+
+.menu-item:hover
+{
+    background: rgba(0, 89, 255, 0.74);
+}
+
+.menu-item > a 
+{
+  display: inline-block;
+  width: 100%;
+}
+
+
+ul
+{
+  list-style: none;
+}

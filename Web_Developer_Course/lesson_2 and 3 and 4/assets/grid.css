@@ -1,0 +1,23 @@
+.container{
+    width: 1510px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+}
+
+.container2{
+color: white;
+font-size: 18px;
+height: 340px;
+width: 378px;
+text-align: center;
+background-image: url("Rectangle 18.png");
+
+}
+
+.container2 h1{
+    padding-top: 110px;
+}
+
+.container2 p{
+    padding-bottom: 129px;
+}

@@ -1,0 +1,277 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: black url(icons/logo.svg) no-repeat 115px;
+    height: 75px;
+    width: 1510px;
+    position: fixed;
+    z-index: 5;
+}
+a{
+  color: #fff;
+  width: 107px;
+  margin-right: 55px;
+  text-decoration: none;
+}
+
+.header-div {
+  margin-left: 800px;
+padding-top: 25px;
+}
+
+.main-div{
+  height:1026px;
+  width: 1510px;
+  background-image: url(images/background-image.png);
+  display: flex;
+}
+
+.form-class {
+  align-content: center;
+}
+
+h2 {
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.Form-h2{
+  margin:0 0 45px 0;
+  text-align: center;
+}
+h2 span{
+  color: #EC7979;
+ }
+.hero-form{
+  /* margin-left: 870px; */
+  background-color: #fff;
+    width: 100%;
+    max-width: 450px;
+    margin:50 px;
+    border: 1px solid #EC7979;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 350px;
+}
+
+.hero-form .form-wrap{
+  padding: 30px 50px;
+}
+
+[type='text'],
+[type='email'],
+[type='password'],
+button{
+  display:block
+}
+
+[type='text'],
+[type='email'],
+[type='password'],
+textarea{
+  border:0;
+  border-bottom: 1px solid #808080;
+  padding:16px 0;
+  color: #808080;
+}
+
+[type='text']::placeholder,
+[type='email']::placeholder,
+[type='password']::placeholder{
+color:#808080
+}
+
+ input,
+ textarea{
+  width:100%;
+}
+
+.btn,[type="submit"]{
+  cursor:pointer;
+color: #fff;
+background-color: #EC7979;
+width:100%;
+padding:15px;
+border:0;
+min-height: 50px;
+font-size: 18px;
+line-height: 25px;
+}
+
+.page-title{
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  padding: 54px;
+}
+
+.page-title:after{
+content: "";
+width: 170px;
+height: 1px;
+background-color: #EC7979;
+display:block;
+margin: 54px auto 0;
+}
+
+.page-subtitle{
+  margin: 0;
+  font-weight:400;
+  text-align: center;
+  color:#868788;
+}
+
+.form-section{
+  width: 100%;
+  max-width: 45%;
+  display: inline-block;
+}
+
+.contact-form [type="submit"]{
+  display: block;
+width: auto;
+min-width: 370px;
+margin: 50px auto 0;
+}
+
+.contact-form{
+  width: 1510px;
+  max-width: 1170px;
+  margin: auto;
+}
+
+ .description-btn{
+  border: 1px solid #FFF;
+  background-color: rgba(0, 0, 0, 0);
+  color: #FFF;
+  width: 260px;
+  height: 55px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 170px;
+}
+
+.stylish-axucure-design{
+  background-image: url(images/image_1.png);
+  height: 442px;
+  width: 1510px;
+}
+footer{
+  background-color: black;
+  height: 164px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  width: 1510px;
+}
+
+#white{
+  color: #fff;
+  font-size: 36px;
+  padding: 100px 0 0 0;
+}
+
+#white::after{
+  content: "";
+  width: 170px;
+  height: 1px;
+  background-color:#fff;
+  display:block;
+  margin: 54px auto 0;
+  }
+
+  #white-p{
+    color: #FFF;
+    text-align: center;
+  }
+
+  .SAD-btn{
+    border: 1px solid #FFF;
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFF;
+    width: 260px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 625px;
+  }
+
+  .socials{
+    height: 140px;
+    width:1510px;
+    background-color: #F8EFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+  }
+
+  .hero-text{
+    color: #FFF;
+  }
+
+  .footer-svg{
+    margin-right: 30px;
+  }
+
+  .social-description{
+    width: 470px;
+    height: 60px;
+    margin-left: 170px;
+    margin-right: 100px;
+    margin-bottom: 110px;
+    
+  }
+
+  .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-text{
+    width: 670px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 170px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  #hero-p::before{
+    content: "";
+width: 170px;
+height: 1px;
+background-color: #FFF;
+display:block;
+margin: 0 0 54px;
+  }
+
+  #hero-p{
+    color: #FFF;
+    width: 270px;
+    height: 42px;
+    margin-left: 170px;
+  }
+
+  .logo-main{
+    margin-top: 306px;
+    margin-left: 170px;
+  }
+
+  h4{
+    font-size: 24px;
+  }
+  
+
+
+
+
